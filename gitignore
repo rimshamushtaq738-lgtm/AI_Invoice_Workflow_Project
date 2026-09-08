@@ -1,0 +1,23 @@
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Private credentials
+secrets/
+credentials/
